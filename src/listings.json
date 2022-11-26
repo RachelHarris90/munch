@@ -1,0 +1,54 @@
+[
+  {
+    "vendorId": "1",
+    "vendorName": "Chunk's food truck",
+    "vendorImageURL": "https://www.wsc.nsw.gov.au/files/assets/public/development/do-i-need-to-approval/food-truck.png?w=1200",
+    "vendorPhone": "0428 245 212",
+    "vendorSocialURL": "facebook.com",
+    "date": "2022/12/24",
+    "startTime": "08:00",
+    "endTime": "13:00",
+    "address": "14 Moira Mews, Stratton WA 6056",
+    "latitude": "-31.863609",
+    "longitude": "116.041763"
+  },
+  {
+    "vendorId": "2",
+    "vendorName": "Maple's ice-cream",
+    "vendorImageURL": "https://joeyicecreams.com.au/wp-content/uploads/2015/05/MrSkippy.jpg",
+    "vendorPhone": "0428 245 212",
+    "vendorSocialURL": "facebook.com",
+    "date": "2022/12/24",
+    "startTime": "14:30",
+    "endTime": "19:30",
+    "address": "14 Moira Mews, Stratton WA 6056",
+    "latitude": "-31.863609",
+    "longitude": "116.041763"
+  },
+  {
+    "vendorId": "3",
+    "vendorName": "Umar's kebabs",
+    "vendorImageURL": "https://hireafoodtruck.com.au/wp-content/uploads/2019/12/halal.jpg",
+    "vendorPhone": "0428 245 212",
+    "vendorSocialURL": "facebook.com",
+    "date": "2023/01/06",
+    "startTime": "14:30",
+    "endTime": "22:00",
+    "address": "61 Berberis Way, Forrestfield WA 6058",
+    "latitude": "-31.982340",
+    "longitude": "116.011630"
+  },
+  {
+    "vendorId": "4",
+    "vendorName": "Rachel's burgers",
+    "vendorImageURL": "https://i0.wp.com/www.vsveicolispeciali.com/wp-content/uploads/2022/03/santo-burger-ape-food-truck.jpg",
+    "vendorPhone": "0428 245 212",
+    "vendorSocialURL": "facebook.com",
+    "date": "2023/01/12",
+    "startTime": "14:30",
+    "endTime": "18:30",
+    "address": "600 St Georges Terrace, Perth WA 6000",
+    "latitude": "-31.952850",
+    "longitude": "115.857310"
+  }
+]

@@ -9,10 +9,5 @@
 
 .listing-content {
   display: flex;
-  flex: row;
-}
-
-.vendor-image {
-  height: 100%;
-  width: 50%;
+  flex-direction: column;
 }

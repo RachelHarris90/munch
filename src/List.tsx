@@ -9,18 +9,19 @@ export const List = () => {
           <header className="fs-4 m-1">{listing.vendorName}</header>
           <div className="listing-content">
             <img
-              className="vendor-image"
+              className="vendor-image w-80 m-2"
               alt={listing.vendorName}
               src={listing.vendorImageURL}
             />
-            <div>
-              <p>{listing.vendorPhone}</p>
-              <p>{listing.date}</p>
-              <p>
-                {listing.startTime} - {listing.endTime}
-              </p>
-              <p>{listing.address}</p>
-            </div>
+            <p>
+              {listing.date} from {listing.startTime} to {listing.endTime}
+            </p>
+            <a
+              href={`https://www.google.com/maps/search/?api=1&query=${listing.latitude},${listing.longitude}`}
+            >
+              {listing.address}
+            </a>
+            <p>{listing.vendorPhone}</p>
           </div>
         </li>
       ))}

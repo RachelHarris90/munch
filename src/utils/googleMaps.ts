@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 export const loadMapApi = () => {
   const mapsURL = `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}&libraries=places&language=no&regiion=NO&v=quarterly`;
   const scripts = document.getElementsByTagName("script");

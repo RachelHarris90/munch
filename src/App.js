@@ -20,6 +20,17 @@ const App = () => {
       <div className="app">
         <img className="app-header w-75 m-3" src={munchLogo} alt="Munch" />
         <ul className="nav justify-content-center">
+          <div class="input-group input-group-md m-3">
+            <span class="input-group-text" id="inputGroup-sizing-md">
+              Location
+            </span>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Location search"
+              aria-describedby="inputGroup-sizing-md"
+            ></input>
+          </div>
           <li className="nav-item">
             <a className="nav-link active" aria-current="page" href="#">
               List

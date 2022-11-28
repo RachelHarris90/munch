@@ -3,7 +3,7 @@ import React from "react";
 
 export const List = () => {
   return (
-    <ul className="unstyled">
+    <ul className="list-unstyled">
       {listings.map((listing) => (
         <li className="card m-3">
           <header className="fs-4 m-1">{listing.vendorName}</header>
@@ -14,7 +14,7 @@ export const List = () => {
               src={listing.vendorImageURL}
             />
             <p>
-              {listing.date} from {listing.startTime} to {listing.endTime}
+              {listing.day} from {listing.startTime} to {listing.endTime}
             </p>
             <a
               href={`https://www.google.com/maps/search/?api=1&query=${listing.latitude},${listing.longitude}`}
